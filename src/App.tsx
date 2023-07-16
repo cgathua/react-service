@@ -4,6 +4,7 @@ import Services from "./components/Services";
 import Faq from "./components/Faq";
 import Reviews from "./components/Reviews";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 
 
@@ -17,6 +18,7 @@ function App() {
     <Faq />
     <Reviews />
     <Contact />
+    <Footer />
   </>
   )
 }

@@ -10,7 +10,7 @@ function Contact() {
                     <form action="contact-form" method="post" className="form">
                         <fieldset>
                             <legend>
-                                <label id="name"> Name <input type="text" name="Name" aria-label="official name" required /></label>
+                                <label id="name"> Name <input type="text" name="Name" aria-label="official name" required  autoComplete='on'/></label>
                                 <label id="email"> Email <input type="email" name="Email Address" aria-labelledby="email" required /></label>
                                 <label id="date">Appointment Date <input type="date" name="Schedule Date" aria-labelledby="date" required /></label>
                                 <label id="time">Appointment Time <input type="time" name="Schedule Time" aria-labelledby="time" required /></label>

@@ -344,7 +344,6 @@ footer a {
 }
 
 footer a:hover {
-    color: var(--primary-color);
     text-decoration: underline;
 }
 
@@ -361,10 +360,6 @@ ul[class="footer-icons"] {
 
 ul[class="footer-icons"] li {
     margin: 0.5rem;
-}
-
-.footer-icons svg:hover {
-    fill: var(--alternate-color);
 }
 /* LEGAL SECTION */
 
