@@ -333,6 +333,10 @@ input[type="submit"] {
 ul[class="contact_details"] li, h4 {
     padding: 0.5rem 0;
 }
+
+.PaperPlane, .EnvelopeClosed, .DrawingPin {
+    color: var(--secondary-color);
+}
 /* END OF CONTACT STYLING */
 
 footer a {

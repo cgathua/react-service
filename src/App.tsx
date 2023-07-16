@@ -3,6 +3,7 @@ import Home from "./components/Home";
 import Services from "./components/Services";
 import Faq from "./components/Faq";
 import Reviews from "./components/Reviews";
+import Contact from "./components/Contact";
 
 
 
@@ -15,6 +16,7 @@ function App() {
     <Services />
     <Faq />
     <Reviews />
+    <Contact />
   </>
   )
 }
