@@ -1,4 +1,3 @@
-import React from "react";
 import HomeImage from './pexels-stephan-louis.webp' //created name to  import image
 
 function Home() {

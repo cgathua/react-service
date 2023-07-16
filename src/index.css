@@ -238,7 +238,8 @@ small {
 
 section[id="reviews"] .container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: minmax(min-content, 1fr)
+    minmax(min-content, 1fr) minmax(min-content, 1fr);
     gap: 2rem;
     place-items: center;
 }
