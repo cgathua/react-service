@@ -1,6 +1,6 @@
 import { Fragment } from "react";
 import { useState } from "react";
-
+import { HamburgerMenuIcon } from "@radix-ui/react-icons";
 
 function Navbar()  {
     const[isNavShowing, setisNavshowing] = useState(false);
@@ -34,7 +34,7 @@ function Navbar()  {
                     <ul className={`navbar2 ${isNavShowing ? 'show_nav' : 'hide_nav'}`}>
                         {ulLists.map(elem => <li key={elem.id}><a href={elem.link}>{elem.title}</a></li>)}
                     </ul>
-                    <button className="menu-btn" onClick={() => setisNavshowing(!isNavShowing)} aria-label="menu" aria-haspopup="true" aria-expanded="false"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ACACB2" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></button>
+                    <button className="menu-btn" onClick={() => setisNavshowing(!isNavShowing)} aria-label="menu" aria-haspopup="true" aria-expanded="false"><HamburgerMenuIcon className="IconButton" /></button>
                 </nav>
             </header>
         </Fragment>

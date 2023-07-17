@@ -1,4 +1,4 @@
-import HomeImage from './pexels-stephan-louis.webp' //created name to  import image
+import HomeImage from './pexels-stephan-louis.webp'
 
 function Home() {
     return (

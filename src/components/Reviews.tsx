@@ -38,7 +38,7 @@ function Reviews() {
                                 <StarFilledIcon />
                             </div>
                         </article>
-                        <figcaption><p className="review_p">The shop finished the job on time and I paid the quoted price, no surprises!</p></figcaption>
+                        <figcaption><p className="review_p">The shop finished the job on time and I paid the quoted price.</p></figcaption>
                     </figure>
                 
                     <figure className="review">

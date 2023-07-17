@@ -1,4 +1,5 @@
 import {PaperPlaneIcon} from '@radix-ui/react-icons'
+import {MobileIcon} from '@radix-ui/react-icons'
 import {EnvelopeClosedIcon} from '@radix-ui/react-icons'
 import {DrawingPinIcon} from '@radix-ui/react-icons'
 function Contact() {
@@ -31,7 +32,7 @@ function Contact() {
                         <p>Please feel free to reach out to us, for any queries.</p> 
                         <ul className="contact_details">
                             <li>
-                                <PaperPlaneIcon className='PaperPlane'/>
+                                <MobileIcon className='Mobile'/>
                                 <h4>(404)-001-1234</h4>
                             </li>
                             <li>
