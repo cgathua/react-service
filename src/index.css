@@ -69,7 +69,7 @@ section h2 {
     margin-bottom: 4rem;
 }
 
-.menu-btn {
+.menu-btn, .navbar2 {
     display: none;
 }
 
@@ -395,41 +395,51 @@ ul[class="footer-legal-items"] li {
         width: var(--desktop-container);
     }
 
-    
-    .nav_links {
+    .nav_links{
+        display: none;
+    }
+
+    .menu-btn {
+        display: initial;
+    }
+ 
+    .navbar2 {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         justify-content: flex-start;
         position: fixed;
         top: 0;
-        left: -100%;
+        transition: 0.3s linear;
         height: 100vh;
         width: 16rem;
         padding: 1rem;
-        transition: 0.3s;
+        left: -100%;
         background: rgba(255,255,255,0.5);
         -webkit-backdrop-filter: blur(10px);
         backdrop-filter: blur(10px);
         border: 1px solid rgba(255,255,255,0.25);
     }
     
-    .nav_links li {
+    .navbar2 li {
         padding: 1.5rem;  
     }
 
-    .nav_links li a {
+    .navbar2 li a {
         color: var(--primary-color);
     }
 
-    .nav_links a:hover {
+    .navbar2 a:hover {
         color: var(--alternate-color);
     }
 
-    .nav_links.active {
-        left: 0;
+    .show_nav {
+        left: 0; 
     }
-    
+
+    .hide_nav {
+        left: -100%; 
+    }
     nav button {
         display: inline-block;
         cursor: pointer;
@@ -444,16 +454,8 @@ ul[class="footer-legal-items"] li {
     header {
         border-bottom: 1px solid var(--rgba-color);
     }
-
-    .show_nav {
-        display: flex;
-    }
-
-    .hide_nav {
-        display: none;
-
-    }
     /*END OF HAMBURGER MENU */
+
     section[id="home"] .container {
         grid-template-columns: 1fr;
     }
