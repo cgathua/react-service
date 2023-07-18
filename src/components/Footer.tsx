@@ -20,9 +20,9 @@ function Footer() {
             <section id="footer-legal" aria-label="legal">
                 <small>
                     <ul className="footer-legal-items">
-                        <li><a href="#">Terms &amp; Conditions</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
-                        <li>Made by <a href="https://cgathua.pages.dev/" target="_blank">@cgathua</a></li>
+                        <li><a href="#" aria-label='see terms & conditions'>Terms &amp; Conditions</a></li>
+                        <li><a href="#" aria-label='see privacy policy'>Privacy Policy</a></li>
+                        <li>Made by <a href="https://cgathua.pages.dev/" target="_blank" aria-label='website designer'>@cgathua</a></li>
                     </ul>
                 </small>
             </section>

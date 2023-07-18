@@ -151,7 +151,6 @@ function Services() {
                 </article>
             </div>
         </section>
-
     );
 };
 

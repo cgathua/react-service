@@ -25,7 +25,7 @@ function Navbar()  {
     return (
         <Fragment>
             <header>
-                <a href="#home" className="logo">LOGO</a>
+                <a href="#home" className="logo" aria-label="website logo">LOGO</a>
                 <nav>
                     {items.length === 0 ? <p>No item found</p> : null}
                     <ul className="nav_links">
