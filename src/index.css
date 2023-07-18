@@ -97,6 +97,8 @@ section[id="home"] .container {
 }
 
 article[class="banner"] button { margin: 1rem auto;}
+
+.PexelsStephanImg { aspect-ratio: 16/9;}
 /* END OF HOME STYLING */
 
 section[id="services"] li {
@@ -208,6 +210,8 @@ figure[class="review"] { background-color: var(--tertiary-color); padding: 1rem;
 }
 
 .review_h, .review_small, .review_p { color: var(--primary-color);}
+
+.PexelsValentinImg, .PexelsRadomirImg, .PexelsImg { aspect-ratio: 1/1;}
 /* END OF REVIEWS STYLING */
 
 section[id="contact"] .container {

@@ -3,8 +3,6 @@ import * as Accordion from '@radix-ui/react-accordion'
 import {ChevronDownIcon } from '@radix-ui/react-icons';
 import { Fragment } from 'react';
 
-
-
 const AccordionDemo = () => { 
 
     return (
