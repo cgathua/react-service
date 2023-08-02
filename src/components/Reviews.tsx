@@ -1,7 +1,10 @@
-import FirstImg from './pexels-valentin-angel-fernandez-14587417.webp'
-import SecondImg from './pexels-radomir-jordanovic-1644924.webp'
-import ThirdImg from './pexels-4574925.webp'
-import { StarFilledIcon } from '@radix-ui/react-icons'
+import FirstImg from '/pexels-valentin-angel-fernandez-14587417.jpg'
+import FirstImgWebp from '/pexels-valentin-angel-fernandez-14587417.webp';
+import SecondImg from '/pexels-radomir-jordanovic-1644924.jpg';
+import SecondImgWebp from '/pexels-radomir-jordanovic-1644924.webp';
+import ThirdImg from '/pexels-4574925.jpg';
+import ThirdImgWebp from '/pexels-4574925.webp';
+import { StarFilledIcon } from '@radix-ui/react-icons';
 
 function Reviews() {
     return (
@@ -11,15 +14,17 @@ function Reviews() {
             <div className="container">
                 <figure className="review">
                     <article className="avatar">
-                        <img 
-                            src={FirstImg} 
-                            alt="asian woman" 
-                            loading='lazy'
-                            width={640}
-                            height={640}
-                            className='PexelsValentinImg'
-                            srcSet='/pexels-valentin-angel-fernandez-14587417.jpg'
-                        />
+                        <picture>
+                            <source srcSet={FirstImgWebp} type="image/avif" />
+                            <img 
+                                src={FirstImg} 
+                                width={640} 
+                                height={640} 
+                                alt="asian woman"  
+                                className='PexelsValentinImg' 
+                                loading='lazy' 
+                            />
+                        </picture>
                         <h3 className="review_h">Mercy</h3>
                         <small className="review_small">HR Manager</small>
                         <div>
@@ -35,15 +40,17 @@ function Reviews() {
 
                 <figure className="review">
                     <article className="avatar">
-                        <img
+                        <picture>
+                            <source srcSet={SecondImgWebp} type="image/avif" />
+                            <img 
                             src={SecondImg} 
+                            width={640} 
+                            height={640} 
                             alt="black woman" 
+                            className='PexelsRadomirImg' 
                             loading='lazy' 
-                            width={640}
-                            height={640}
-                            className='PexelsRadomirImg'
-                            srcSet='/pexels-radomir-jordanovic-1644924.jpg'
                         />
+                        </picture>
                         <h3 className="review_h">Ann</h3>
                         <small className="review_small">Stylist</small>
                         <div>
@@ -59,15 +66,17 @@ function Reviews() {
 
                 <figure className="review">
                     <article className="avatar">
-                        <img 
+                        <picture>
+                            <source srcSet={ThirdImgWebp} type="image/avif" />
+                            <img 
                             src={ThirdImg} 
-                            alt="white woman" 
+                            width={640} 
+                            height={640} 
+                            alt="white woman"   
+                            className='PexelsImg' 
                             loading='lazy' 
-                            width={640}
-                            height={640}
-                            className='PexelsImg'
-                            srcSet='/pexels-4574925.jpg'
                         />
+                        </picture>
                         <h3 className="review_h">Stephanie</h3>
                         <small className="review_small">Photographer</small>
                         <div>
@@ -83,6 +92,6 @@ function Reviews() {
             </div>
         </section>
     );
-}
+};
 
 export default Reviews;

@@ -13,13 +13,13 @@ function Home() {
                 </article>
                 <picture>
                     <img
-                        src={HomeImg}
-                        srcSet='/pexels-stephan-louis.jpg'
-                        alt='bmw'
-                        className='PexelsStephanImg'
-                        width={1920}
-                        height={1080}
-                        
+                       src="pexels-stephan-louis960w.png"
+                       srcSet="pexels-stephan-louis480w.webp 480w, pexels-stephan-louis768w.webp 768w, pexels-stephan-louis960w.png"
+                       sizes="(max-width: 480px) 480w, (max-width: 768px) 768w, 960w"
+                       alt="iphone X" 
+                       width={960} 
+                       height={540} 
+                       className="HomeImage"    
                     />
                 </picture>
             </div>
