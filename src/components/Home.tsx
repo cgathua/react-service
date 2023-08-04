@@ -14,11 +14,11 @@ function Home() {
                 <picture>
                     <img
                        src="pexels-stephan-louis960w.png"
-                       srcSet="pexels-stephan-louis480w.webp 480w, pexels-stephan-louis768w.webp 768w, pexels-stephan-louis960w.png"
-                       sizes="(max-width: 480px) 480w, (max-width: 768px) 768w, 960w"
+                       srcSet="pexels-stephan-louis-480w.webp 480w, pexels-stephan-louis960w.webp 960w, pexels-stephan-louis.jpg 1920w"
+                       sizes="(max-width: 480px) 480w, (max-width: 960px) 960w, 1920w"
                        alt="iphone X" 
-                       width={960} 
-                       height={540} 
+                       width={1920} 
+                       height={1080} 
                        className="HomeImage"    
                     />
                 </picture>
