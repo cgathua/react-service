@@ -13,7 +13,7 @@ function Home() {
                 </article>
                 <picture>
                     <img
-                       src="pexels-stephan-louis960w.png"
+                       src="pexels-stephan-louis.jpg" 
                        srcSet="pexels-stephan-louis-480w.webp 480w, pexels-stephan-louis960w.webp 960w, pexels-stephan-louis.jpg 1920w"
                        sizes="(max-width: 480px) 480w, (max-width: 960px) 960w, 1920w"
                        alt="iphone X" 
