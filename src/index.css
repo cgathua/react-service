@@ -212,6 +212,7 @@ section[id="faqs"] .container {
     justify-content: space-between;
     width: 100%;
     font-size: 15px;
+    text-align: left;
 }
 
 .AccordionContent {
@@ -456,7 +457,6 @@ ul[class="footer-legal-items"] li {
         background: rgba(255, 255, 255, 0.5);
         -webkit-backdrop-filter: blur(10px);
         backdrop-filter: blur(10px);
-        border: 1px solid rgba(255, 255, 255, 0.25);
     }
 
     .navbar2 li {
