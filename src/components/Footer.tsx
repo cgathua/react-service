@@ -23,7 +23,7 @@ function Footer(): JSX.Element {
                     <ul className="footer-legal-items">
                         <li><a href="#" aria-label='see terms & conditions'>Terms &amp; Conditions</a></li>
                         <li><a href="#" aria-label='see privacy policy'>Privacy Policy</a></li>
-                        <li>Made by <a href="https://cgathua.pages.dev/" target="_blank" aria-label='website designer'>@cgathua</a></li>
+                        <li>Made by <a href="https://cgathua.pages.dev/"aria-label='cgathua' target="_blank">@cgathua</a></li>
                     </ul>
                 </small>
             </section>
