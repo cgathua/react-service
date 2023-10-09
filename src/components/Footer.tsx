@@ -3,7 +3,8 @@ import { LinkedInLogoIcon } from '@radix-ui/react-icons'
 import { InstagramLogoIcon } from '@radix-ui/react-icons'
 import { DiscordLogoIcon } from '@radix-ui/react-icons'
 import { HomeIcon } from '@radix-ui/react-icons'
-function Footer() {
+
+function Footer(): JSX.Element {
     return (
 
         <footer>

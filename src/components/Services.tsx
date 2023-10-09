@@ -1,5 +1,5 @@
 
-function Services() {
+function Services(): JSX.Element {
     return (
 
         <section id="services">
@@ -7,7 +7,7 @@ function Services() {
             <div className="container">
                 <article className="services_column">
                     <svg xmlns="http://www.w3.org/2000/svg"
-                        xmlnsXlink="http://www.w3.org/1999/xlink" width="64px" height="64px" viewBox="0 0 64 64"
+                        xmlnsXlink="http://www.w3.org/1999/xlink" min-width="64px" height="64px" viewBox="0 0 64 64"
                         enableBackground="new 0 0 64 64" xmlSpace="preserve" fill="#ACACB2" stroke="#ACACB2"
                         ><g id="SVGRepo_bgCarrier" strokeWidth="0"></g><g id="SVGRepo_tracerCarrier" strokeLinecap="round"
                         strokeLinejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <path fill="" d="M14,30c-2.757,0-5-2.243-5-5s2.243-5,5-5s5,2.243,5,5S16.757,30,14,30z M14,22c-1.654,0-3,1.346-3,3 s1.346,3,3,3s3-1.346,3-3S15.654,22,14,22z"
@@ -33,7 +33,7 @@ function Services() {
                 <article className="services_column">
                     <svg xmlns="http://www.w3.org/2000/svg"
                         xmlnsXlink="http://www.w3.org/1999/xlink"
-                        width="64px"
+                        min-width="64px"
                         height="64px"
                         viewBox="0 0 64 64"
                         enableBackground="new 0 0 64 64" xmlSpace="preserve" fill="#ACACB2" stroke="#ACACB2"><g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
@@ -61,7 +61,7 @@ function Services() {
                 <article className="services_column">
                     <svg xmlns="http://www.w3.org/2000/svg"
                         xmlnsXlink="http://www.w3.org/1999/xlink"
-                        width="64px"
+                        min-width="64px"
                         height="64px"
                         viewBox="0 0 64 64"
                         enableBackground="new 0 0 64 64" xmlSpace="preserve" fill="#ACACB2" stroke="#ACACB2"><g id="SVGRepo_bgCarrier" strokeWidth="0"></g><g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round">
@@ -93,7 +93,7 @@ function Services() {
 
                 <article className="services_column">
                     <svg fill="#ACACB2"
-                        width="48px"
+                        min-width="48px"
                         height="48px"
                         viewBox="0 0 14 14" role="img"
                         focusable="false" aria-hidden="true"
@@ -113,7 +113,7 @@ function Services() {
                 <article className="services_column">
                     <svg fill="#ACACB2"
                         height="48px"
-                        width="48px"
+                        min-width="48px"
                         version="1.1" id="Layer_1"
                         xmlns="http://www.w3.org/2000/svg"
                         xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -133,7 +133,7 @@ function Services() {
                 <article className="services_column">
                     <svg fill="#ACACB2"
                         height="48px"
-                        width="48px"
+                        min-width="48px"
                         version="1.1" id="Layer_1"
                         xmlns="http://www.w3.org/2000/svg"
                         xmlnsXlink="http://www.w3.org/1999/xlink"

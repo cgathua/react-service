@@ -194,6 +194,8 @@ section[id="faqs"] .container {
 
 .AccordionChevron {
     transition: transform 300ms cubic-bezier(0.87, 0, 0.13, 1);
+    min-width: 15px;
+    height: 15px;
 }
 
 .AccordionTrigger[data-state='open']>.AccordionChevron {

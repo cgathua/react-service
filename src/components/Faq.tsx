@@ -1,6 +1,6 @@
 import AccordionDemo from "./Accordion";
 
-function Faq() {
+function Faq(): JSX.Element {
     return (
         <section id="faqs">
             <h2>FAQ</h2>

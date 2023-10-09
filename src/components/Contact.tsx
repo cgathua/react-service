@@ -3,7 +3,7 @@ import { MobileIcon } from '@radix-ui/react-icons'
 import { EnvelopeClosedIcon } from '@radix-ui/react-icons'
 import { DrawingPinIcon } from '@radix-ui/react-icons'
 
-function Contact() {
+function Contact(): JSX.Element {
     return (
         
         <section id="contact">
@@ -12,7 +12,7 @@ function Contact() {
                 <form action="contact-form" method="post" className="form">
                     <fieldset>
                         <legend>
-                            <label id="name"> Name <input type="text" name="Name" aria-label="official name" required autoComplete='on' /></label>
+                            <label id="name"> Name <input type="text" name="Name" aria-label="official name" title="first and last name, separated by a gap" autoComplete='on' pattern="(^[a-zA-Z]{1,15} [a-zA-Z]{1,15}$)" required /></label>
                             <label id="email"> Email <input type="email" name="Email Address" aria-labelledby="email" required /></label>
                             <label id="date">Appointment Date <input type="date" name="Schedule Date" aria-labelledby="date" required /></label>
                             <label id="time">Appointment Time <input type="time" name="Schedule Time" aria-labelledby="time" required /></label>

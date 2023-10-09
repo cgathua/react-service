@@ -6,7 +6,7 @@ import ThirdImg from '/pexels-4574925.jpg';
 import ThirdImgWebp from '/pexels-4574925.webp';
 import { StarFilledIcon } from '@radix-ui/react-icons';
 
-function Reviews() {
+function Reviews(): JSX.Element {
     return (
 
         <section id='reviews'>

@@ -2,22 +2,22 @@ import { Fragment } from "react";
 import { useState } from "react";
 import { HamburgerMenuIcon } from "@radix-ui/react-icons";
 
-function Navbar()  {
+function Navbar(): JSX.Element  {
     const[isNavShowing, setisNavshowing] = useState(false);
     let items = [
-        { id: 0, link: '#home', title: 'Home'},
-        { id: 1, link: '#services', title: 'Services'},
-        { id: 2, link: '#faqs', title: 'FAQ'},
-        { id: 3, link: '#reviews', title: 'Reviews'},
-        { id: 4, link: '#contact', title: 'Contact'}
+        { id: 0 as number, link: '#home' as string, title: 'Home' as string},
+        { id: 1 as number, link: '#services' as string, title: 'Services' as string},
+        { id: 2 as number, link: '#faqs' as string, title: 'FAQ' as string},
+        { id: 3 as number, link: '#reviews' as string, title: 'Reviews' as string},
+        { id: 4 as number, link: '#contact' as string, title: 'Contact' as string}
     ]
 
     let ulLists = [
-        { id: 5, link: '#home', title: 'Home'},
-        { id: 6, link: '#services', title: 'Services'},
-        { id: 7, link: '#faqs', title: 'FAQ'},
-        { id: 8, link: '#reviews', title: 'Reviews'},
-        { id: 9, link: '#contact', title: 'Contact'}
+        { id: 5 as number, link: '#home' as string, title: 'Home' as string},
+        { id: 6 as number, link: '#services' as string, title: 'Services' as string},
+        { id: 7 as number, link: '#faqs' as string, title: 'FAQ' as string},
+        { id: 8 as number, link: '#reviews' as string, title: 'Reviews' as string},
+        { id: 9 as number, link: '#contact' as string, title: 'Contact' as string}
     ]
 
     return (
