@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-
 :root {
     --primary-color: #000;
     --secondary-color: #ACACB2;
@@ -30,7 +28,8 @@ body {
     min-height: 100vh;
     line-height: 1.75;
     background-color: var(--primary-color);
-    font-family: 'Montserrat', sans-serif;
+    font-family: Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
+    font-weight: normal;
 }
 
 .container {
@@ -213,8 +212,12 @@ section[id="faqs"] .container {
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    font-size: 15px;
+    font-size: 1rem;
     text-align: left;
+}
+
+.AccordionTrigger b {
+    font-size: large;
 }
 
 .AccordionContent {
@@ -497,7 +500,7 @@ ul[class="footer-legal-items"] li {
         display: inline-block;
         cursor: pointer;
         background-color: transparent;
-        margin-right: 1rem;
+        margin-right: 0.5rem auto;
         color: var(--secondary-color);
         align-items: center;
         justify-content: center;

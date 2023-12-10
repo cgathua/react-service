@@ -2,11 +2,11 @@ import AccordionDemo from "./Accordion";
 
 function Faq(): JSX.Element {
     return (
-        <section id="faqs">
+        <section id="faqs" aria-label="faqs">
             <h2>FAQ</h2>
-            <div className="container">
+            <figure className="container" aria-label="accordion">
                 <AccordionDemo />
-            </div>
+            </figure>
         </section>
     );
 };

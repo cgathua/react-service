@@ -5,10 +5,10 @@ import { DrawingPinIcon } from '@radix-ui/react-icons'
 
 function Contact(): JSX.Element {
     return (
-        
-        <section id="contact">
+
+        <section id="contact" aria-label='contact'>
             <h2>Contact</h2>
-            <div className="container">
+            <figure className="container" aria-label='contact form'>
                 <form action="contact-form" method="post" className="form">
                     <fieldset>
                         <legend>
@@ -28,25 +28,25 @@ function Contact(): JSX.Element {
                     <input type="submit" id="submit" value="Submit" className="btn btn-primary" />
                 </form>
 
-                <aside className="contact">
+                <aside className="contact" aria-label='contact information'>
                     <h3>Contact Info</h3>
                     <p>Please feel free to reach out to us, for any queries.</p>
                     <ul className="contact_details">
                         <li>
-                            <MobileIcon className='Mobile' />
+                            <MobileIcon className='Mobile' aria-hidden />
                             <h4>(404)-001-1234</h4>
                         </li>
                         <li>
-                            <EnvelopeClosedIcon className='EnvelopeClosed' />
+                            <EnvelopeClosedIcon className='EnvelopeClosed' aria-hidden />
                             <h4>support@logo.com</h4>
                         </li>
                         <li>
-                            <DrawingPinIcon className='DrawingPin' />
-                            <h4>Atlanta, Georgia</h4>
+                            <DrawingPinIcon className='DrawingPin' aria-hidden />
+                            <h4>Atlanta, Georgia 30144</h4>
                         </li>
                     </ul>
                 </aside>
-            </div>
+            </figure>
         </section>
     );
 }
