@@ -1,6 +1,7 @@
 import { Fragment } from "react";
 import { useState } from "react";
 import { HamburgerMenuIcon } from "@radix-ui/react-icons";
+import { CarServiceIcon } from "../assets/carservice";
 
 function Navbar(): JSX.Element {
     const [isNavShowing, setisNavshowing] = useState(false);
@@ -23,7 +24,7 @@ function Navbar(): JSX.Element {
     return (
         <Fragment>
             <header>
-                <a href="#home" className="logo" aria-label="website logo">LOGO</a>
+                <a href="#home" className="logo" aria-label="website logo">{<CarServiceIcon />}</a>
                 <nav>
                     {items.length === 0 ? <p>No item found</p> : null}
                     <ul className="nav_links" aria-label="desktop nav">

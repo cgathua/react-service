@@ -82,7 +82,7 @@ section h2 {
 html,
 body {
     width: auto !important;
-    overflow-x: hidden !important
+    overflow-x: hidden !important;
 }
 
 .btn {
@@ -107,7 +107,7 @@ header {
     right: 0;
     z-index: 9;
     width: 100%;
-    padding: 0.5rem 1rem;
+    padding: 5px 15px;
     background-color: var(--primary-color);
 }
 
@@ -116,6 +116,7 @@ header {
     justify-content: center;
     align-items: center;
     gap: 2rem;
+    margin-right: 1rem;
 }
 
 .logo {
