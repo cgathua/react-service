@@ -35,7 +35,7 @@ function Reviews(): JSX.Element {
                             <StarFilledIcon aria-hidden />
                         </span>
                     </article>
-                    <figcaption><p className="review_p">I'm very satisfied with the work that was done on my car.</p></figcaption>
+                    <figcaption><p className="review_p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus iste iusto laudantium similique fugit ex?</p></figcaption>
                 </figure>
 
                 <figure className="review" aria-label='review'>
@@ -61,7 +61,7 @@ function Reviews(): JSX.Element {
                             <StarFilledIcon aria-hidden />
                         </span>
                     </article>
-                    <figcaption><p className="review_p">The shop finished the job on time and I paid the quoted price.</p></figcaption>
+                    <figcaption><p className="review_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque assumenda, sed natus labore laboriosam ipsam.</p></figcaption>
                 </figure>
 
                 <figure className="review" aria-label='review'>
@@ -87,7 +87,7 @@ function Reviews(): JSX.Element {
                             <StarFilledIcon aria-hidden />
                         </span>
                     </article>
-                    <figcaption><p className="review_p">The service advisor addressed my concerns, about my car.</p></figcaption>
+                    <figcaption><p className="review_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi iure doloremque iusto, eos tempore delectus.</p></figcaption>
                 </figure>
             </div>
         </section>
