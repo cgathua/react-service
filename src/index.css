@@ -140,7 +140,7 @@ article[class="banner"] button {
 
 section[id="services"] li {
     color: var(--secondary-color);
-    list-style: initial;
+    list-style: outside circle;
     text-transform: capitalize;
 }
 
@@ -158,6 +158,7 @@ article[class="services_column"] h3 {
 
 article[class="services_column"] {
     padding: 1rem;
+    height: 100%;
 }
 
 .services_column svg {
@@ -268,6 +269,7 @@ section[id="reviews"] .container {
 figure[class="review"] {
     background-color: var(--primary-color);
     padding: 1rem;
+    height: 100%;
 }
 
 .avatar img {

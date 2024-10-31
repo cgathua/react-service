@@ -1,4 +1,4 @@
-import FirstImg from '/pexels-valentin-angel-fernandez-14587417.jpg'
+import FirstImg from '/pexels-valentin-angel-fernandez-14587417.jpg' 
 import FirstImgWebp from '/pexels-valentin-angel-fernandez-14587417.webp';
 import SecondImg from '/pexels-radomir-jordanovic-1644924.jpg';
 import SecondImgWebp from '/pexels-radomir-jordanovic-1644924.webp';
@@ -35,7 +35,7 @@ function Reviews(): JSX.Element {
                             <StarFilledIcon aria-hidden />
                         </span>
                     </article>
-                    <figcaption><p className="review_p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus iste iusto laudantium similique fugit ex?</p></figcaption>
+                    <figcaption><p className="review_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum voluptate quis doloribus eaque sunt officiis ducimus accusantium optio excepturi sed.</p></figcaption>
                 </figure>
 
                 <figure className="review" aria-label='review'>
@@ -61,7 +61,7 @@ function Reviews(): JSX.Element {
                             <StarFilledIcon aria-hidden />
                         </span>
                     </article>
-                    <figcaption><p className="review_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque assumenda, sed natus labore laboriosam ipsam.</p></figcaption>
+                    <figcaption><p className="review_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis eius odit, sit molestias corporis adipisci?</p></figcaption>
                 </figure>
 
                 <figure className="review" aria-label='review'>
@@ -87,7 +87,7 @@ function Reviews(): JSX.Element {
                             <StarFilledIcon aria-hidden />
                         </span>
                     </article>
-                    <figcaption><p className="review_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi iure doloremque iusto, eos tempore delectus.</p></figcaption>
+                    <figcaption><p className="review_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus aut recusandae quibusdam eligendi enim? Non, architecto! Libero soluta corporis a.</p></figcaption>
                 </figure>
             </div>
         </section>
