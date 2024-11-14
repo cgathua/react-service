@@ -581,3 +581,9 @@ ul[class="footer-legal-items"] li {
 }
 
 /* END OF MEDIA QUERIES FOR PHONES */
+
+@media (prefers-reduced-motion: reduce) {
+    .btn, .btn-primary {
+        transition: none;
+    }
+}
