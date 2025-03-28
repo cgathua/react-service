@@ -66,7 +66,7 @@ h1 {
 }
 
 section {
-    padding: 5.5rem 0;
+    padding: 4rem 0;
 }
 
 section h2 {
@@ -121,11 +121,15 @@ header {
 
 
 /* END OF HEADER STYLING */
-
 section[id="home"] .container {
     display: grid;
     grid-template-columns: minmax(min-content, 30%) minmax(min-content, 70%);
     place-items: end;
+    width: 100%;
+}
+
+.banner {
+    width: var(--desktop-container);
 }
 
 article[class="banner"] button {
@@ -560,6 +564,14 @@ ul[class="footer-legal-items"] li {
 
 @media screen and (max-width: 600px) {
     .container {
+        width: var(--mobile-container);
+    }
+
+    section[id="home"] .container {
+        width: 100%;
+    }
+
+    .banner {
         width: var(--mobile-container);
     }
 
